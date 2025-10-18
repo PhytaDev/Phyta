@@ -1,21 +1,28 @@
 # Phyta
 A fully moddable 2D garden-defense engine
 
-Phyta is an open-source framework for building lane-based defense games. Inspired by classic titles like Plants vs. Zombies, Phyta is designed to be mod-friendly and scriptable from the ground up.
+Phyta is an open-source framework for building lane-based defense games. Inspired by classic titles like Plants vs. Zombies, Phyta is designed to be mod-friendly and scriptable from the ground up. Completely free from proprietary assets or restrictions.
 
 ## Current Status
 
-- Planning / prototyping phase
-- Core engine not yet implemented
-- No gameplay or assets yet
+- **Stage**: Planning & prototyping
 
-## Goal
+**Engine**: Not yet implemented
+**Gameplay**: None
+**Assets**: None/Prototyping
 
-Create a lightweight, fully moddable engine where anyone can define custom entities, projectiles, levels, and rules via scripts and configs.
+## Goals
+
+- Provide an open foundation for PvZ-style gameplay.
+- Support runtime modding (define entities, projectiles, rules)
+- Keep the engine lightweight, readable, and extensible
+- Encourage a community-driven ecosystem of mods and forks
 
 ## Contributing
 
-Ideas, feedback, or discussion are welcome! No code contributions yet — stay tuned.
+We’re still laying the groundwork.
+Ideas, design discussions, and feature suggestions are very welcome.
+Code contributions will open once the prototype core is ready.
 
 ## License
 
