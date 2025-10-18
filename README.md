@@ -8,7 +8,9 @@ Phyta is an open-source framework for building lane-based defense games. Inspire
 - **Stage**: Planning & prototyping
 
 **Engine**: Not yet implemented
+
 **Gameplay**: None
+
 **Assets**: None/Prototyping
 
 ## Goals
