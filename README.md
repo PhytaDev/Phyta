@@ -1,48 +1,37 @@
-# Phyta
-A fully moddable 2D garden-defense engine
 
-Phyta is an open-source framework for building lane-based defense games. Inspired by classic titles like Plants vs. Zombies, Phyta is designed to be mod-friendly and scriptable from the ground up. Completely free from proprietary assets or restrictions.
+# Phyta
+
+Open-Source 2D "Garden"-Defense Engine
+_A fully moddable framework for building lane-based defense games._
+
+Phyta is an open-source engine dedicated to creating Plants vs. Zombies style 2D garden defense games. Our vision is to provide a highly moddable, scriptable, and community-driven platform, completely free from proprietary assets or restrictions.
 
 ## Current Status
 
-- **Stage**: Planning & prototyping
+*   **Stage**: Planning & Prototyping
+*   **Engine**: Not yet implemented
+*   **Gameplay**: Not yet implemented
+*   **Assets**: Prototyping
 
-**Engine**: Not yet implemented
+## Core Goals
 
-**Gameplay**: None
+*   **Open Foundation**: Establish a robust, adaptable engine for PvZ-style gameplay
+*   **Moddability**: Support runtime modding for entities, projectiles, game rules, and more
+*   **Lightweight & Extensible**: Maintain a clean, readable, and easily extensible codebase
+*   **Community-Driven**: Foster a vibrant ecosystem for mods, forks, and collaborative development
 
-**Assets**: None/Prototyping
+## Technology Stack
 
-## Goals
+### Engine: Rust
+Chosen for its great **speed, memory safety, cross-platform**. Rust will help us to build a high-performance engine that's stable and easy to extend, running close to native C++ performance.
 
-- Provide an open foundation for PvZ-style gameplay.
-- Support runtime modding (define entities, projectiles, rules)
-- Keep the engine lightweight, readable, and extensible
-- Encourage a community-driven ecosystem of mods and forks
+### Scripting & Modding: Lua (via `mlua` crate)
+Lua offers a combination of **simplicity, speed, and modding familiarity**. Key features include hot reloadable mods, a sandboxed environment for security, and LuaJIT support for performance.
 
 ## Contributing
 
-We’re still laying the groundwork.
-Ideas, design discussions, and feature suggestions are very welcome.
-Code contributions will open once the prototype core is ready.
-
-## Language
-
-Engine language: Rust. But why?
-
-Rust offers speed, safety, and cross-platform reliability — perfect for an open-source engine meant to be extended and modded. Its strong type system and memory safety make it easier to build complex systems without crashes or leaks, while still running close to native C++ performance.
-
-In short: Rust lets Phyta stay fast, safe, and hackable.
-
-Scripting & Modding Language: LUA specifically mlua crate. 
-Lua was chosen for its speed, simplicity, and modding familiarity.
-
-- Hot-reloadable mods
-- Sandboxed
-- LuaJIT support
-- Simple structure
-
+We are currently laying the groundwork for Phyta and welcome **ideas, design discussions, and feature suggestions**. Once the core prototype is stable, we'll open up for code contributions.
 
 ## License
 
-MIT License
+Phyta is distributed under the **MIT License**
