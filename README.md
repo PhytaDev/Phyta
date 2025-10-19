@@ -26,6 +26,23 @@ We’re still laying the groundwork.
 Ideas, design discussions, and feature suggestions are very welcome.
 Code contributions will open once the prototype core is ready.
 
+## Language
+
+Engine language: Rust. But why?
+
+Rust offers speed, safety, and cross-platform reliability — perfect for an open-source engine meant to be extended and modded. Its strong type system and memory safety make it easier to build complex systems without crashes or leaks, while still running close to native C++ performance.
+
+In short: Rust lets Phyta stay fast, safe, and hackable.
+
+Scripting & Modding Language: LUA specifically mlua crate. 
+Lua was chosen for its speed, simplicity, and modding familiarity.
+
+- Hot-reloadable mods
+- Sandboxed
+- LuaJIT support
+- Simple structure
+
+
 ## License
 
 MIT License
